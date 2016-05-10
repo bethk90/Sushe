@@ -164,7 +164,7 @@ ul {
 }
 
 .jumbotron {
-	background-image: url("../sushi background.jpg");
+	background-image: url("../img/sushi background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
