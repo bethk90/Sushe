@@ -9,26 +9,81 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-    <script src="jquery.js"></script>
-
+    <link href='https://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-  <ul class="nav nav-pills nav-justified">
-  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-  <li role="presentation"><a href="restaurants.html">Restaurants</a></li>
-  <li role="presentation"><a href="facts.html">Facts</a></li>
-  <li role="presentation"><a href="cooking.html">Recipes</a></li>
-  </ul>
+  <nav class="navbar navbar-fixed-top">
+    <container>
+      <ul class="nav nav-pills nav-justified">
+      <li role="presentation" class="active"><a href="index.html">Home</a></li>
+      <li role="presentation"><a href="restaurants.html">Restaurants</a></li>
+      <li role="navbar-presentation"><a href="facts.html">Facts</a></li>
+      <li role="presentation"><a href="cooking.html">Recipes</a></li>
+      </ul>
+    </container>
+  </nav>
 
   <div class="jumbotron">
     <div class="container">
-      <h1>How to make sushi</h1>
-      <h3>Recipes for beginners</h3>
+      <div class="header">
+        <h1>How to make sushi</h1>
+        <h3>Recipes for beginners</h3>
+      </div>
     </div>
   </div>
+      
+    <div class = "center-block">
+      <ul id "some helpful cooking instructions"> 
+        <li> Japanese rice needs to be <em>washed extensively</em> before cooking. This should take around 2-3 minutes and the water should run clear. Once the rice is washed, it should be drained and left for 30 minutes before cooking. It should visibly plump up in this time! (If you have a rice cooker, use that instead) </li>
+        <li> If you don't have a rice cooker, use a <em>heavy bottomed saucepan</em> and put in rice and cold water, slightly more water than rice. Bring to a boil, and as soon as it starts to boil put a tight fitting lid on top, and turn the heat down low. Cook for a further 15 minutes, then take of the heat and let it sit for a further 10. This should leave you with perfect sticky rice! </li>
+        <li> For sushi rice, you should <em>add sushi vinegar</em> to taste during the cooling process. Drizzle over the top and fold the vinegar in, when it is cool it is ready to use in your chosen sushi dish! </li>
+        <li> Some <em>essential ingredients</em> include sesame seeds, nori (dried seaweed sheets), wasabi and ginger </li>
+      </ul>
+      <br>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+      <table border="1px" class="center table table-responsive table-striped">
+        <thead>
+        <tr>
+          <th colspan="12">
+          SUSHI TOPPINGS
+          </th>
+          
+        </tr>
+        </thead>
+
+        <tbody>  
+        <tr> 
+          <td colspan="4">Raw Fish </td>
+          <td colspan="8">Tuna or Salmon </td>
+        </tr>
+
+        <tr>
+          <td colspan="4"> Cooked Fish </td>
+          <td colspan="8">Smoked Salmon, Smoked Eel, King Prawn </td>
+        </tr>
+
+        <tr>
+          <td colspan="4"> Meat </td>
+          <td colspan="8"> Chicken, Duck, Beef </td>
+       </tr>
+
+       <tr>
+          <td colspan="4"> Omelette </td>
+          <td colspan="8"> Sweetened Japanese Omelette </td>
+        </tr>
+
+        <tr>
+          <td colspan="4"> Vegetables </td>
+          <td colspan="8"> Cucumber, Avocado, Chives </td>
+        </tr>
+      </tbody>
+      </table>  
+
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>

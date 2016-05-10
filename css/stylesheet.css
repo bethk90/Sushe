@@ -1,3 +1,196 @@
+* {
+	font-family: 'Orienta', sans-serif;
+}
+
+body {
+	padding-top: 70px;
+}
+
+em {
+	font-style: italic;
+	color: #ff4d4d;
+}
+
+h3 {
+	font-style: italic;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+th {
+	text-align: center;
+	background: #ff4d4d;
+	color: white;
+	font-size: 1.5em;
+}
+
+ul {
+	line-height: 1.5em;
+}
+
+.btn-default {
+	background-color:  #ff4d4d;
+	border-color: white;
+	color: white;
+}
+
+.btn-default:active:focus,
+.btn-default:hover {
+	background-color:  #ff4d4d;
+	border-color: white;
+	color: black;
+}
+
+.btn-facebook {
+	background-color: #4868ac;
+	color: white;
+}
+
+.btn-info {
+	background-color:  #ff4d4d;
+	border-color: white;
+}
+
+.btn-info:active:focus,
+.btn-info:hover {
+	background-color:  #ff4d4d;
+	border-color: white;
+	color: black;
+}
+
+.btn-pinterest {
+	background-color: #b62f26;
+	color: white;
+}
+
+.btn-twitter {
+	background-color: #00acee;
+	color: white;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: 1;
+}
+
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  filter: alpha(opacity=90);
+  outline: 0;
+  opacity: .9;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  margin-left: 200px;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  margin-right: 200px;
+}
+
+.center-block {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.form-inline {
+	margin-top: 30px;
+
+}
+
+.header {
+	background: rgba(255,255,255,0.8);
+}
+
+.ingredients {
+	margin: 0 auto;
+}
+
+.item img {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.item > div {
+	width: 400px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.8);
+	color: black;
+	text-shadow: none;
+}
+
 .jumbotron {
 	background-image: url("../sushi background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar {
+	background-color: white;
+}
+
+.nav-pills {
+	background-color: #ff4d4d;
+}
+
+.nav-pills a {
+	color: white;
+}
+
+.nav-pills > li > a:hover {
+	background-color: #ff4d4d;
+	color: black;
+}
+
+#intro {
+	margin-top: 30px;
+}
+
+#social-buttons {
+	margin-top: 30px;
+	border-color: black;
 }

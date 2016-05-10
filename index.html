@@ -9,21 +9,28 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-    <script src="jquery.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
-  <ul class="nav nav-pills nav-justified">
-  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-  <li role="presentation"><a href="restaurants.html">Restaurants</a></li>
-  <li role="presentation"><a href="facts.html">Facts</a></li>
-  <li role="presentation"><a href="cooking.html">Recipes</a></li>
-  </ul>
+
+  <nav class="navbar navbar-fixed-top">
+    <container>
+      <ul class="nav nav-pills nav-justified">
+      <li role="presentation" class="active"><a href="index.html">Home</a></li>
+      <li role="presentation"><a href="restaurants.html">Restaurants</a></li>
+      <li role="presentation"><a href="facts.html">Facts</a></li>
+      <li role="presentation"><a href="cooking.html">Recipes</a></li>
+      </ul>
+    </container>
+  </nav>
 
   <div class="jumbotron">
     <div class="container">
-      <h1>Welcome to SUSH-E</h1>
-      <h3>Just roll with it...</h3>
+      <div class="header">
+        <h1>Welcome to SUSH-E</h1>
+        <h3>Just roll with it...</h3>
+      </div>
     </div>
   </div>
 
@@ -31,25 +38,38 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <blockquote>Where to eat delicious sushi</blockquote>
-          <button type="button" class="btn btn-default btn-lg">
+          <h4>Where to eat Sushi</h><br><br>
+          <a href="restaurants.html" class="btn btn-info btn-lg" role="button">
           <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
-          </button>
+          </a>
         </div>
         <div class="col-sm-4">
-          <blockquote>Fun Facts about Sushi</blockquote>
-          <button type="button" class="btn btn-default btn-lg">
+          <h4>Fun Sushi Facts</h><br><br>
+          <a href="facts.html" class="btn btn-info btn-lg" role="button">
           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
-          </button>
+          </a>
         </div>
         <div class="col-sm-4">
-          <blockquote>How to make sushi</blockquote>
-          <button type="button" class="btn btn-default btn-lg">
+          <h4>How to make Sushi</h><br><br>
+          <a href="cooking.html" class="btn btn-info btn-lg" role="button">
           <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-          </button>
+          </a>
         </div>
+      </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <form class="form-inline">
+      <label for="MailingList">Sign up to our mailing list: </label>
+      <input type="email" class="form-control" id="MailingList" placeholder="email address">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+<div id='social-buttons'>
+    <button class="btn btn-sm btn-twitter">Twitter</button>
+    <button class="btn btn-sm btn-facebook">Facebook</button>
+    <button class="btn btn-sm btn-pinterest">Pinterest</button>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
